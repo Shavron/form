@@ -17,7 +17,7 @@ export default function Navbar() {
         <a href="/form">Form</a>
       </li>
       <li>
-        <a href="/react-hook-form"> React Hook Form</a>
+        <a href="/react-hook-form"> React Hook Form </a>
       </li>
     </ul>
   );
