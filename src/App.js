@@ -11,7 +11,9 @@ import {
 import "./App.css";
 import Form from "./Form";
 import ReactHookForm from "./ReactHookForm";
+import Ifsc from "./Ifsc";
 import Navbar from "./Navbar";
+import AddMore from "./AddMore";
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
         <Switch>
           <Route exact path="/form" component={Form} />
           <Route exact path="/react-hook-form" component={ReactHookForm} />
+          <Route exact path="/ifsc" component={Ifsc} />
+          <Route exact path="/addmore" component={AddMore} />
           {/* <Route component={NotFound} /> */}
         </Switch>
       </BrowserRouter>
